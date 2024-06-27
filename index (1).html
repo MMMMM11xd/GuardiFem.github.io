@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardifem</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Guardifem</h1>
+            <p>Apoyo y protección contra el acoso cibernético</p>
+        </header>
+        
+        <div class="registration">
+            <h2>Regístrate</h2>
+            <form id="registration-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+        
+        <aside class="sidebar">
+            <div class="logo-container">
+                <img src="mnt/data/Imagen de WhatsApp 2024-06-13 a las 14.32.17_00968041.jpg" alt="Guardifem Logo" class="logo">
+            </div>
+            <button id="panic-button">Botón de Pánico</button>
+            <button id="legal-support">Orientación Legal y Psicológica</button>
+            <button id="live-events">Eventos Virtuales en Vivo</button>
+            <button id="immediate-support">Intervención Automática</button>
+        </aside>
+        
+        <main>
+            <div id="chat-container">
+                <h2>Chat de Ayuda</h2>
+                <div id="chat-box"></div>
+                <input type="text" id="chat-input" placeholder="Escribe tu mensaje...">
+                <button id="send-button">Enviar</button>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
